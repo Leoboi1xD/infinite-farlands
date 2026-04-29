@@ -83,12 +83,8 @@ dependencies {
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 	// Fabric API - Item API
 	modImplementation("net.fabricmc.fabric:fabric-item-api-v1:${project.fabric_item_api_version}")
-
 	// Mod Menu
 	modImplementation("io.github.prospector:modmenu:${project.modmenu_version}")
-
-	// HWYLA
-	modImplementation("maven.modrinth:hwyla:${project.hwyla_version}-fabric")
 
 	// Cloth Config, Events, and AutoConfig
 	modApi("me.shedaniel.cloth:config-2:${project.cloth_version}") {
@@ -96,9 +92,6 @@ dependencies {
 	}
 	modApi("me.shedaniel.cloth:cloth-events:${project.cloth_events_version}")
 	modApi("me.sargunvohra.mcmods:autoconfig1u:${project.autoconfig_version}")
-
-	// Roughly Enough Items (REI)
-	modImplementation("curse.maven:rei-310111:${project.rei_version}")
 
 }
 

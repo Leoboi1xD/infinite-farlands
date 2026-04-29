@@ -3,7 +3,7 @@
 	"package": "com.example.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"ExampleMixin"
+      "InfiniteFarlandsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
